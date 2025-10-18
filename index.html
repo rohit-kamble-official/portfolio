@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Kamble| B.Tech EE Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Fira+Code&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <span class="logo">Rohit K.</span>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#achievements">Achievements</a></li> 
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark and light mode">
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero container">
+            <div class="hero-content">
+                <p class="greeting">Hello, I'm</p>
+                <h1>Rohit Kamble.</h1>
+                <p class="tagline">Final Year B.Tech EE Student & Aspiring Full-Stack Developer | Skilled in Web & App Development, Data Analysis, and Data Science.</p>
+                <p class="short-intro">I build responsive and scalable web applications while exploring the potential of Machine Learning. Let's create something impactful.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="Images/Rohit Kamble (CV)[1].pdf" class="btn btn-secondary">Download CV <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="Images/RK2.png" alt="Rohit Kamble Profile Picture">
+            </div>
+        </section>
+
+        <section id="about" class="section-padding container hidden">
+            <h2>About Me</h2>
+            <p>I’m a final-year B.Tech Electrical Engineering student with a strong passion for Computer Science and Software Development. Despite coming from a non-CS background, I’ve built a solid foundation in Full-Stack Web Development, App Development, and Core CS concepts.
+
+Currently, I’m working as a Software Development Intern at Zonovva Creative Agency, contributing to real-world projects using React, Node.js, MongoDB, SQL, and React Native.
+
+I also have hands-on experience with Java, Python, Data Structures & Algorithms, OOPs, Machine Learning, and modern web technologies such as HTML, CSS, and JavaScript.
+
+I’m seeking Software Development / SDE roles where I can apply my skills, grow as a developer, and build impactful, scalable solutions that make a difference.</p>
+        </section>
+        
+        <section id="skills" class="section-padding container hidden">
+            <h2>Technical & Soft Skills</h2>
+            <div class="skills-category-container">
+                
+                <div class="skills-column">
+                    <h3><i class="fas fa-laptop-code"></i> Core Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item card">
+                            <i class="fab fa-react"></i>
+                            <p>React</p>
+                        </div>
+                        <div class="skill-item card">
+                            <i class="fab fa-node-js"></i>
+                            <p>Node.js / Express</p>
+                        </div>
+                        <div class="skill-item card">
+                            <i class="fab fa-js-square"></i>
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="skill-item card">
+                            <i class="fab fa-python"></i>
+                            <p>Python / AI/ML</p>
+                        </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-column">
+                    <h3><i class="fas fa-database"></i> Database & Tools</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item card">
+                            <i class="fas fa-database"></i>
+                            <p>MongoDB / SQL</p>
+                        </div>
+                        <div class="skill-item card">
+                            <i class="fab fa-java"></i>
+                            <p>Java / DSA</p>
+                        </div>
+                        <div class="skill-item card">
+                            <i class="fab fa-git-alt"></i>
+                            <p>Git / GitHub</p>
+                        </div>
+                        <div class="skill-item card">
+                            <i class="fab fa-reacteurope"></i>
+                            <p>React Native</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-column">
+                    <h3><i class="fas fa-lightbulb"></i> Soft Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item card">
+                            <i class="fas fa-people-carry-box"></i>
+                            <p>Teamwork</p>
+                        </div>
+                        <div class="skill-item card">
+                            <i class="fas fa-puzzle-piece"></i>
+                            <p>Problem-Solving</p>
+                        </div>
+                        <div class="skill-item card">
+                            <i class="fas fa-brain"></i>
+                            <p>Adaptability</p>
+                        </div>
+                        <div class="skill-item card">
+                            <i class="fas fa-comments"></i>
+                            <p>Communication</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-padding container hidden">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card card">
+                    <img src="Images/fullstack.png" alt="E-Commerce API">
+                    <div class="project-content">
+                        <h3>Full-Stack Stock Trading Platform</h3>
+                        <p>A full-stack e-commerce site featuring user authentication, product catalog, cart management, and payment integration.</p>
+                        <div class="tech-stack">
+                            <span>MongoDB</span>
+                            <span>Express</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank"><i class="fas fa-code"></i> GitHub</a>
+                            <a href="#" target="_blank"><i class="fas fa-globe"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card card">
+                    <img src="Images/heart .png" alt="AI Chatbot">
+                    <div class="project-content">
+                        <h3>Heart Failure Prediction</h3>
+                        <p>Developed a machine learning-based system to predict heart disease risk using clinical and lifestyle data.Applied 
+advanced data preprocessing, feature engineering, and model optimization to ensure high accuracy, scalability, and real
+world applicability.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>Seaborn</span>
+                            <span>Scikit-learn</span>
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                            <span>Matplotlib</span>
+                        </div>
+                        <div class="project-links">
+                             <a href="#" target="_blank"><i class="fas fa-code"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card card">
+                    <img src="Images/mood.png" alt="Budget Tracker">
+                    <div class="project-content">
+                        <h3>Real-Time Mood-Based Music Player</h3>
+                        <p>An interactive music platform that detects users’ emotions from images or text and instantly recommends songs to match their mood. Built with a modular component design for scalability and smooth user experience.</p>
+                        <div class="tech-stack">
+                            <span>React</span>
+                            <span>Chakra UI</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>TensorFlow.js</span>
+                        </div>
+                        <div class="project-links">
+                             <a href="https://github.com/rohit-kamble-official/Substation-Inspection-Project.git" target="_blank"><i class="fas fa-code"></i> GitHub</a>
+                            <a href="https://rohit-kamble-official.github.io/FInal_project_Website/" target="_blank"><i class="fas fa-globe"></i> Live Demo</a>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <div class="project-card card">
+                    <img src="Images/IOT.png" alt="Budget Tracker">
+                    <div class="project-content">
+                        <h3>Substation Sentinel / Electrical Monitoring System</h3>
+                        <p>A real-time substation monitoring solution that leverages IoT devices to track electrical parameters and system health. The web interface provides instant alerts, analytics, and operational insights, helping to ensure safety, reliability, and efficient maintenance of electrical substations.</p>
+                        <div class="tech-stack">
+                            <span>IoT,</span>
+                            <span>Web Interface</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rohit-kamble-official/Substation-Inspection-Project.git" target="_blank"><i class="fas fa-code"></i> GitHub</a>
+                            <a href="https://rohit-kamble-official.github.io/FInal_project_Website/" target="_blank"><i class="fas fa-globe"></i> Live Demo</a>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                <div class="project-card card">
+                    <img src="Images/womens.jpg" alt="Budget Tracker">
+                    <div class="project-content">
+                        <h3>AI-Driven Smart Safety System</h3>
+                        <p>Developed an AI-driven smart safety system that enhances women’s safety through hands-free activation methods like gestures, voice commands, and shake detection. The system integrates real-time location tracking, threat detection, and secure evidence collection, sending instant alerts via SMS, WhatsApp, and email. With technologies like speech recognition, OpenCV, IoT integration, and AI-powered voice warnings, this project demonstrates expertise in AI, IoT, and real-time safety solutions.</p>
+                        <div class="tech-stack">
+                            
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/rohit-kamble-official/Substation-Inspection-Project.git" target="_blank"><i class="fas fa-code"></i> GitHub</a>
+                            <a href="https://rohit-kamble-official.github.io/FInal_project_Website/" target="_blank"><i class="fas fa-globe"></i> Live Demo</a>
+                        </div>
+                    </div>
+
+                    
+                </div>
+                
+            </div>
+            
+        </section>
+        
+        <section id="experience" class="section-padding container hidden">
+            <h2>Experience & Education 📈</h2>
+            
+            <div class="experience-group">
+                <h3><i class="fas fa-briefcase"></i> Professional Internships</h3>
+
+                <div class="experience-item card">
+                    <h4>Web Developer Intern, Zonovva Creative Agency, Pune</h4>
+                    <span class="date-range">May 2025 – Jul 2025</span>
+                    <ul>
+                        <li>Developed and deployed **3+ responsive websites** using **React, JavaScript, HTML, and CSS**, ensuring cross-platform functionality.</li>
+                        <li>Ensured **100% on-time delivery** for client projects, maintaining high quality and professional development standards.</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-item card">
+                    <h4>Machine Learning Engineer Intern, Codemate IT Services Pvt. Ltd, Nagpur</h4>
+                    <span class="date-range">May 2024 – June 2024</span>
+                    <ul>
+                        <li>Contributed to the development and deployment of **2 scalable ML models**, focusing on optimizing for real-world application and speed.</li>
+                        <li>Utilized **Python, NumPy, Pandas, Scikit-learn, and TensorFlow** for data preprocessing, feature engineering, and model training.</li>
+                        <li>Collaborated with the engineering team to ensure seamless integration of AI/ML solutions into production environments.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item card">
+                    <h4>Android Developer Virtual Internship, India Edu Program</h4>
+                    <span class="date-range">Oct 2024 – Dec 2024</span>
+                    <ul>
+                        <li>Completed a **10-week virtual internship** focused on Android app development, including coding simulations, API integration, and debugging tasks.</li>
+                        <li>Collaborated using **Google developer tools** and technologies, enhancing practical coding and problem-solving abilities.</li>
+                    </ul>
+                </div>
+                
+                <div class="experience-item card">
+                    <h4>Data Analytics Internship, IStudio Nagpur, Maharashtra</h4>
+                    <span class="date-range">Jan 2025 – Mar 2025</span>
+                    <ul>
+                        <li>Successfully applied skills (**SQL/Tableau**) to analyze a **10,000-row dataset**, resulting in key business insights used for a final project.</li>
+                        <li>Selected based on impressive performance in the **Internship Common Aptitude Test (ICAT)** for a 3-month structured training program.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="education-group">
+                <h3><i class="fas fa-graduation-cap"></i> Academic Background</h3>
+                <div class="education-item card">
+                    <h4>B.Tech. Electrical Engineering, Minor in Computer Science (CGPA: 7.8)</h4>
+                    <p><strong>S. B. Jain Institute of Technology, Management & Research, Nagpur</strong> | 2022 - 2026</p>
+                    <p><strong>Core Competencies:</strong> Data Structures & Algorithms, Object-Oriented Programming (OOP), Full-Stack Development (MERN Stack).</p>
+                    <p><strong>Relevant Coursework:</strong> Advanced Algorithms, Operating Systems, Database Management Systems, Machine Learning.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="section-padding container hidden">
+            <h2>Certifications & Achievements 🏆</h2>
+            <div class="certifications-grid">
+                <div class="certification-item card">
+                    <h4><i class="fas fa-award"></i> Android Developer Virtual Internship</h4>
+                    <p>Awarded by **AICTE & EduSkills** for successfully completing a 10-week virtual internship with Google Developer tools. (Oct - Dec 2024)</p>
+                </div>
+                <div class="certification-item card">
+                    <h4><i class="fas fa-trophy"></i> IEEE PES Day 2024 Brand Ambassador</h4>
+                    <p>Recognized for outstanding dedication & support as a **Brand Ambassador** for IEEE PES Day 2024.</p>
+                </div>
+                <div class="certification-item card">
+                    <h4><i class="fas fa-code"></i> Alpha (DSA with Java) Completion</h4>
+                    <p>Certificate of completion from **Apna College** for mastering Data Structures & Algorithms with Java.</p>
+                </div>
+                <div class="certification-item card">
+                    <h4><i class="fas fa-graduation-cap"></i> NPTEL Elite Certification: Programming in Java</h4>
+                    <p>Achieved **Elite** status in the 12-week NPTEL course on **Programming in Java** from IIT Kharagpur (Jan-Apr 2024).</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="section-padding container hidden">
+            <h2>Additional Achievements ✨</h2>
+            <div class="achievements-list">
+                <div class="achievement-item card">
+                    <h4><i class="fas fa-star"></i> Won 1st Prize at Srujanotsava 1.0 Project Exhibition</h4>
+                    <p>For the innovative project "Automatic Prasad Distributor". Recognized for exceptional innovation, teamwork, and practical implementation of a real-world solution.</p>
+                </div>
+                <div class="achievement-item card">
+                    <h4><i class="fas fa-medal"></i> Secured 3rd Prize (2nd Runner-Up) at Tech Trek Hackathon</h4>
+                    <p>Awarded ₹8,000 cash prize at Sadhabai Raisoni College for a smart automation solution.</p>
+                </div>
+                <div class="achievement-item card ">
+                    <h4><i class="fas fa-code-branch"></i> Hack for Impact Finalist - E-Summit 2025, IIT Delhi</h4>
+                    <p>Selected from 5,000+ teams nationwide in a multi-stage innovation hackathon, advancing through three rounds to become a top 6 finalist at IIIT Delhi. Contributed to developing impactful, tech-driven solutions aligned with innovation and entrepreneurship, earning a Certificate of Participation for excellence under expert mentorship.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section-padding container hidden">
+            <h2>Gallery & Proof 🖼️</h2>
+            <div class="slider-container">
+                <div class="slider-track">
+                    <img src="Images/H.jpg" alt="Android Developer Virtual Internship Certificate" class="slider-image">
+                    <img src="Images/hh.jpg "IEEE PES Day 2024 Brand Ambassador Certificate" class="slider-image">
+                    <img src="Images/hk1.jpg "Alpha DSA with Java Completion Certificate" class="slider-image">
+                    <img src="Images/ro.jpg" alt="NPTEL Elite Certification Programming in Java" class="slider-image">
+                    <img src="Images/D1.jpg "Achievements Srujanotsava and Hackathon" class="slider-image">
+                    <img src="Images/sss.jpg" alt="Achievements Srujanotsava and Hackathon" class="slider-image">
+                    <img src="Images/S.jpg " alt="Achievements Srujanotsava and Hackathon" class="slider-image">
+                    <img src="Images/SIH.jpg" alt="Achievements Srujanotsava and Hackathon" class="slider-image">
+                    <img src="Images/ieee1.jpg "Achievements Srujanotsava and Hackathon" class="slider-image"> 
+                </div>
+                <button class="slider-nav prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-nav next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </section>
+
+        <section id="contact" class="section-padding container hidden">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <p>I'm currently seeking full-time SDE roles. Feel free to reach out for opportunities or just to say hello!</p>
+                    
+                    <form action="https://formsubmit.co/itsrohitrk.official@gmail.com" method="POST">
+                        <input type="hidden" name="_captcha" value="false">
+                        
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Contact Details</h3>
+                    <p><i class="fas fa-envelope" style="color: var(--color-primary);"></i> Email: <a href="mailto:itsrohitrk.official@gmail.com">itsrohitrk.official@gmail.com</a></p>
+                    
+                    <p><i class="fab fa-linkedin" style="color: var(--color-primary);"></i> LinkedIn: <a href="https://www.linkedin.com/in/rohit-kamble-135575252" target="_blank">rohit-kamble-135575252</a></p>
+                    <p><i class="fab fa-github" style="color: var(--color-primary);"></i> GitHub: <a href="https://github.com/rohit-kamble-official" target="_blank">rohit-kamble-official</a></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Rohit Kamble. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/rohit-kamble-official" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rohit-kamble-135575252" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:itsrohitrk.official@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script> 
+</body>
+</html>
